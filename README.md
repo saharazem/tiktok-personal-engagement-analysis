@@ -73,9 +73,9 @@ To identify and analyze the relationship between my TikTok engagement habits and
 
 ## Analysis Plan
 
-- **Thematic Overlap**: Percentage of common themes between engagement data and personal posts.
+- **Shared Themes**: Percentage of common themes between engagement data and personal posts.
 - **Sound Influence**: Frequency of favorite or trending sounds in personal posts.
-- **Temporal Trends**: Alignment of engagement trends with posting behavior over time.
+- **Trends over Time**: Alignment of engagement trends with posting behavior over time.
 
 ### Tools and Techniques
 - Python scripts for data cleaning and analysis.
