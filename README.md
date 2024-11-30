@@ -79,7 +79,7 @@ To identify and analyze the relationship between my TikTok engagement habits and
 
 ### Tools and Techniques
 - Python scripts for data cleaning and analysis.
-- Visualization libraries (e.g., Matplotlib, Seaborn) for graphical insights.
+- Visualization libraries for graphical insights.
 
 ---
 
