@@ -1,94 +1,36 @@
-# TikTok Engagement and Personal Posting Behavior Analysis
+# TikTok Engagement Analysis vs Personal Posting Behavior
 
 ## Overview
+This project explores the relationship between my TikTok engagement habits—such as browsing, liking videos, saving sounds, and following trends—and my personal posting behavior on the platform. The goal is to analyze patterns in engagement and posting to uncover correlations and insights into how social media influences creative output.
 
-This project investigates the influence of TikTok engagement—likes, favorites, sounds, and follows—on personal posting behavior. By analyzing trends, themes, and patterns in engagement data, the goal is to understand if and how my content consumption shapes my creative output on TikTok.
+## Hypothesis
+The hypothesis of this project is that my engagement habits on TikTok directly influence the themes, styles, and creative decisions in my personal posts.
 
-### Main Hypothesis
+## Scope of the Project
+- **Data Overview:**
+  - The dataset includes my TikTok activity data, such as browsing history, liked videos, favorite sounds, personal posts, and profile information.
+- **Analysis:**
+  - Focused on trends in posting behavior, engagement data, and the relationship between them.
+  - Explored how browsing habits and saved sounds influence posting patterns.
+- **Visualization:**
+  - Created graphs and charts to present insights into posting trends, sound usage, and engagement patterns.
+- **Hypothesis Testing:**
+  - Statistical tests (e.g., Chi-square) were used to evaluate correlations between engagement habits and posting behavior.
 
-**"The content I engage with on TikTok (e.g., liked videos, saved sounds) directly influences the themes, styles, and creative decisions in my personal TikTok posts."**
+## Tools and Techniques
+- Python scripts were used for data cleaning, analysis, and visualization.
+- Jupyter Notebook was utilized for organizing code and generating graphs.
 
----
+## Deliverables
+- **Full Report:** Detailed analysis, findings, and conclusions are documented in [DSA210 ProjectReport.pdf](./DSA210_ProjectReport.pdf).
+- **Code and Visualizations:** All Python code and generated graphs can be found in [DSA210ProjeFinal.ipynb](./DSA210ProjeFinal.ipynb).
 
-## Dataset Description
+## Conclusion
+This project highlights how my engagement with TikTok content impacts my creative output on the platform. While the results supported some aspects of the hypothesis, they also revealed additional factors influencing my posting behavior. 
 
-The project uses personal data exported from TikTok, organized into the following key categories:
-
-### 1. **Activity Data**
-- **Browsing History**: Tracks the videos I’ve watched.
-- **Searches**: Keywords and phrases searched on TikTok.
-- **Share History**: Details content shared with others.
-
-### 2. **Engagement Data**
-- **Liked Videos**: Content I’ve liked, highlighting trends and interests.
-- **Favorite Videos**: Videos saved as favorites, offering deeper insights into personal preferences.
-- **Favorite Sounds**: Saved audio tracks, showcasing recurring audio trends or themes.
-
-### 3. **Personal Posts**
-- **Posted Content**: Metadata about my posts, including captions, themes, and sounds used.
-- **Deleted Posts**: Tracks removed posts to identify changes in creative direction.
-
-### 4. **Profile Data**
-- **Following**: Accounts I follow, reflecting influencers or creators that resonate with me.
-- **Followers**: Insights into my TikTok network.
-
+## Limitations
+The analysis faced challenges due to TikTok API restrictions, requiring manual data extraction for some categories (e.g., hashtags and favorite sounds). Future work can focus on using advanced data collection methods for improved accuracy.
 
 ---
 
-## Project Idea and Plan
-
-### Objective
-To identify and analyze the relationship between my TikTok engagement habits and personal posting behavior.
-
-### Steps
-
-#### Step 1: Data Preparation
-- Organize the exported TikTok dataset into relevant categories.
-- Clean and preprocess the data:
-  - Remove duplicates.
-  - Standardize formats for descriptions, hashtags, and metadata.
-
-#### Step 2: Data Analysis
-- Explore engagement data for trends and themes in liked/favorite videos and saved sounds.
-- Categorize personal posts by themes, sound usage, and creative styles.
-- Compare patterns between engagement data and personal posting behavior.
-
-#### Step 3: Visualization
-- Create charts and graphs to present findings:
-  - Distribution of themes in engagement and personal posts.
-  - Frequency of sound usage in personal posts.
-  - Trends in posting behavior over time.
-
-#### Step 4: Insights and Hypothesis Testing
-- Test the hypothesis:
-  - Evaluate overlaps between themes in engagement data and personal posts.
-  - Analyze the percentage of personal posts using favorite sounds.
-  - Measure temporal alignment between engagement and posting habits.
-
-#### Step 5: Conclusions and Future Work
-- Summarize findings and their implications for creative behavior.
-- Propose directions for extended analysis or application of insights.
-
----
-
-## Analysis Plan
-
-- **Shared Themes**: Percentage of common themes between engagement data and personal posts.
-- **Sound Influence**: Frequency of favorite or trending sounds in personal posts.
-- **Trends over Time**: Alignment of engagement trends with posting behavior over time.
-
-### Tools and Techniques
-- Python scripts for data cleaning and analysis.
-- Visualization libraries for graphical insights.
-
----
-
-## Expected Outcomes
-
-The analysis will reveal:
-- **Patterns of Influence**: Whether engagement habits directly impact creative output.
-- **Creative Independence**: Areas where personal posts diverge from engagement trends.
-- **Content Strategy Insights**: Recommendations for refining posting strategies.
-
----
 
