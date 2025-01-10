@@ -17,20 +17,57 @@ The hypothesis of this project is that my engagement habits on TikTok directly i
 - **Hypothesis Testing:**
   - Statistical tests (e.g., Chi-square) were used to evaluate correlations between engagement habits and posting behavior.
 
-## Tools and Techniques
-- Python scripts were used for data cleaning, analysis, and visualization.
-- Jupyter Notebook was utilized for organizing code and generating graphs.
+---
 
-## Deliverables
-- **Full Report:** Detailed analysis, findings, and conclusions are documented in [DSA210 ProjectReport.pdf](./DSA210_ProjectReport.pdf).
-- **Code and Visualizations:** All Python code and generated graphs can be found in [DSA210ProjeFinal.ipynb](./DSA210ProjeFinal.ipynb).
+## Directory Guide
+Here’s where to find the relevant files and folders in this repository:
 
-## Conclusion
-This project highlights how my engagement with TikTok content impacts my creative output on the platform. While the results supported some aspects of the hypothesis, they also revealed additional factors influencing my posting behavior. 
+- **TikTokData/**  
+  Contains all original TikTok data files that were exported directly from TikTok. These files were ignored in the analysis for privacy reasons but include:
+  - `Browsing History.txt`
+  - `Favorite Sounds.txt`
+  - `Follower.txt`
+  - `Following.txt`
+  - `Like List.txt`
+  - `Post.txt`
 
-## Limitations
-The analysis faced challenges due to TikTok API restrictions, requiring manual data extraction for some categories (e.g., hashtags and favorite sounds). Future work can focus on using advanced data collection methods for improved accuracy.
+- **extracteddata/**  
+  Includes manually extracted and processed data used for the analysis:
+  - `manual_liked_videos_updated.csv`: Contains manually extracted data for liked videos.
+  - `manual_posted_videos.xlsx`: Contains manually extracted data for posted videos.
+
+- **.gitignore**  
+  This file excludes the `TikTokData/` folder from version control to ensure the privacy of original TikTok data.
+
+- **DSA210 ProjectReport.pdf**  
+  The full project report detailing the analysis, results, and conclusions.
+
+- **DSA210ProjeFinal.ipynb**  
+  A Jupyter Notebook with all Python code used for data cleaning, visualization, and analysis.
+
+- **README.md**  
+  This project overview and guide.
 
 ---
 
+## Tools and Techniques
+- **Python:** Used for data cleaning, analysis, and visualization.
+- **Jupyter Notebook:** For organizing code and generating graphs.
 
+---
+
+## Deliverables
+- **Full Report:** See [DSA210 ProjectReport.pdf](./DSA210_ProjectReport.pdf) for detailed analysis and findings.
+- **Code and Visualizations:** See [DSA210ProjeFinal.ipynb](./DSA210ProjeFinal.ipynb) for Python code and generated graphs.
+
+---
+
+## Conclusion
+This project highlights how my TikTok engagement influences my creative output. While the results fail to reject aspects of the hypothesis, they also revealed additional factors influencing my posting behavior such as trends, seasonality, spontaneous posting etc. 
+
+---
+
+## Limitations
+- **API Restrictions:** Due to TikTok API limitations, manual data extraction was required for some categories, such as hashtags and favorite sounds.
+- **Content Matching:** Hashtag and theme analysis relied on general trends, which may not perfectly reflect video content.
+- **Future Work:** Automated data collection methods and extended datasets could enhance the accuracy and scope of the analysis.
