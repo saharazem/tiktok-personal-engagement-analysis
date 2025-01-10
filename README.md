@@ -43,16 +43,15 @@ Here’s where to find the relevant files and folders in this repository:
   The full project report detailing the analysis, results, and conclusions.
 
 - **DSA210ProjeFinal.ipynb**  
-  A Jupyter Notebook with all Python code used for data cleaning, visualization, and analysis.
+  A Jupyter Notebook with all the Python code I used for data cleaning, visualization, and analysis for this project.
 
-- **README.md**  
-  This project overview and guide.
 
 ---
 
 ## Tools and Techniques
 - **Python:** Used for data cleaning, analysis, and visualization.
 - **Jupyter Notebook:** For organizing code and generating graphs.
+- **Google Docs:** Used for the creation of the final report.
 
 ---
 
@@ -61,9 +60,8 @@ Here’s where to find the relevant files and folders in this repository:
 - **Code and Visualizations:** See [DSA210ProjeFinal.ipynb](./DSA210ProjeFinal.ipynb) for Python code and generated graphs.
 
 ---
-
 ## Conclusion
-This project highlights how my TikTok engagement influences my creative output. While the results fail to reject aspects of the hypothesis, they also revealed additional factors influencing my posting behavior such as trends, seasonality, spontaneous posting etc. 
+This project highlights how my TikTok engagement habits influence my creative output. While the results fail to reject aspects of the hypothesis, they also reveal additional factors influencing my posting behavior, including trends, seasonality, spontaneous posting, and personal preferences. These insights demonstrate that creative decisions on TikTok are shaped by a combination of engagement patterns and external influences.
 
 ---
 
