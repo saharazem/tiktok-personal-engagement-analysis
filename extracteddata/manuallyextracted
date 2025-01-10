@@ -1,0 +1,6 @@
+### Manually Extracted Data
+Due to limitations with TikTok's API, some data was manually collected and stored in the `/manually_extracted_data` folder:
+- **manual_liked_videos_updated.csv:** Contains manually added data for liked videos, including detailed hashtags and themes.
+- **manual_posted_videos.xlsx:** Stores metadata for personal TikTok posts, such as timestamps, captions, and associated hashtags.
+
+These files provide supplementary insights for the analysis where API limitations and difficulties were encountered.
